@@ -1,0 +1,12 @@
+[package]
+name = "gptool"
+version = "0.1.0"
+edition = "2024"
+description = "GPT disk image utility"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+uuid = { version = "1", features = ["v4"] }
+crc32fast = "1"
+colored = "2"
+anyhow = "1"
